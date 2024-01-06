@@ -33,19 +33,7 @@ chainlit run app.py
 ```
 
 ## 🐳  Docker quick start
-1. Clone the repository📂
-```bash
-git clone https://github.com/Motoroller89/QnA-pdf-bot-sberbank.git
-cd QnA-pdf-bot-sberbank
-```
-2. Build the docker container and setup OpenAI api key:
-```bash
-docker build -t sber:last --build-arg OPENAI_API_KEY=your-open-ai-api-key .
-```
-3. Run the docker container directly
-```bash
-docker run -it sber:last
-```
+-
 
 
 ## 📖 Example Usage
