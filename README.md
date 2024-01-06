@@ -1,6 +1,5 @@
 # QnA-pdf-bot-sberbank
-Welcome to the smart Q&A assistant created specifically for the 2022 Sberbank Report. We are ready to provide you with all the necessary information and answer your questions about the report.
-
+![PDF Q&A App](assets/welcome_screen.png)
 
 ## 🧰 Stack
 
@@ -47,3 +46,7 @@ docker build -t sber:last --build-arg OPENAI_API_KEY=your-open-ai-api-key .
 ```bash
 docker run -it sber:last
 ```
+
+
+## 📖 Example Usage
+![PDF Q&A demo](assets/demo.png)
