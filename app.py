@@ -77,7 +77,7 @@ async def main(message: cl.Message):
         found_page.append(page_number)
 
     if found_page:
-            answer += f"\nPages: {', '.join(map(str, found_page))}"
+            answer += f"\n\nPages: {', '.join(map(str, found_page))}"
     else:
         answer += "\nNo Pages found"
 
